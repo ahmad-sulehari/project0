@@ -1,40 +1,77 @@
-body {
-  margin: 0; }
-
-ul {
+header
+{
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  background-color: black;
+  top: 0;
+  
+}
+.row
+{
+  align-items:center;
+}
+.col-12
+{
+  margin:0px;
+  padding: 0px;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  background-color: greenyellow;
-  border: 2px green solid; }
-  ul li {
-    margin: 0;
-    padding: 0 10px 0 5px;
-    list-style: none; }
-    ul li a {
-      margin: 0;
-      text-decoration: none;
-      font-size: 20;
-      font-weight: bold;
-      color: black; }
-      .row > div
-      {
-          border: 2px solid red;
-          text-align: center;
-          margin: 10px;
+}
+.logo
+{
+  margin: 20px;
+  display: block;
+  text-align: center;
+  width:20%;
+  height: 30px;
+}
+.nav 
+{
+  margin: 0px;
 
-          padding: 160px 50px 160px 50px;
-        }
-      #naran
-      {
-        background-image: url("Media/naran-verticle.jpg");
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
-      .boxes > .row
-      {
-        margin:0px;
+  list-style-type: none;
+  top:0;
+  height: 90px;
+  align-content: center;
+  width:100%;
+}
+.tabs a
+{
+  color: white;
+  font-size: 100%;
+  font-family: fantasy;
+  display: block;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+.tabs a:hover
+{
+  text-decoration: none;
+}
+.social-link
+{
+  align-content: center;
+  width:20%;
+}
+.social
+{
+  list-style-type: none;
+  align-content: center;
+  display: flex;
+  width: 100%;
+}
 
-      }
-/*# sourceMappingURL=indexStyleSheet.css.map */
+.fa
+{
+  
+  display:block;
+  align-content: center;
+}
+.row-social
+{
+  border: red solid 2px;
+  width: 50%;
+
+}
+
