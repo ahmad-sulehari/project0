@@ -1,0 +1,72 @@
+$my-alignment:center;
+$my-font:'Teko';
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bitter',sans-serif;
+    text-align: $my-alignment;
+}
+*{
+    box-sizing: border-box;
+}
+.intro{
+    
+    .intro-text{
+        color: white;
+        font-family: 'Josefin Sans';
+        font-size: 30px;      
+    }
+}
+.pfp{
+    padding-top: 10% ;   
+}
+.myname{
+    padding-top: 3%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.parallax{ 
+  background-position: $my-alignment;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-image: url("Media/back-img.jpg");
+  height: 100%;
+}
+ 
+.social-link{
+
+    padding: 2%;
+    a.link{
+        border:white solid 2px;
+        border-radius: 50px;
+        padding: 5%;
+        background-color: blue;
+        color: blueviolet;
+        font-weight: bolder;
+    }
+}
+.header{
+    margin: 0px;
+    .option{
+    font-family: $my-font,sans-serif;
+    text-align: $my-alignment;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    @extend a
+}
+@media screen and(max-width: 600px){
+    .social-link{
+        margin: 5%;
+    }
+}

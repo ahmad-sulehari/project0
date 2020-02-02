@@ -1,0 +1,17 @@
+body{
+    text-align: none;
+    background-color: aliceblue;
+}
+a.nav-link{
+    font-family: 'Teko',sans-serif;
+    font-size: 150%;
+}
+#home-img{
+    width: 8%;
+}
+@media screen and (max-width: 600px)
+{
+    body{
+        text-align:center;
+    }
+}
